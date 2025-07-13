@@ -54,7 +54,8 @@ export default function PdfForm() {
     if (file) {
       upload();
     }
-  }, [file, upload]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [file]);
 
   const promptSubmit = (promptTypeArgument: string) => {
     if (!dialogOpen && prompt) {
@@ -67,7 +68,8 @@ export default function PdfForm() {
       <main>
         <h1 className="text-4xl font-bold">Lets Get Started</h1>
         <p className="text-black/70 text-sm">
-          Let&apos;s start by uploading your resume to fetch the content of the file
+          Let&apos;s start by uploading your resume to fetch the content of the
+          file
         </p>
         {!prompt || prompt == "" ? (
           <form
