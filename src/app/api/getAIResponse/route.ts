@@ -16,7 +16,7 @@ export async function POST(req: Request) {
 
     const response = await ai.models.generateContent({
       model: "gemini-2.5-flash",
-      contents: "Hello, this is the text which i have extracted from my cv, can you view it and give me some keyword recommendations based on the cv content? Try to keep the response as small as possible including the starting text/intro, and the keywords recommended should not already be present in the cv" + text,
+      contents: text,
     });
 
     return NextResponse.json({ response }, { status: 200 });

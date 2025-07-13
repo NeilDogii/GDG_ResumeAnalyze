@@ -1,0 +1,71 @@
+[debug] [2025-07-13T17:30:26.672Z] ----------------------------------------------------------------------
+[debug] [2025-07-13T17:30:26.674Z] Command:       /nix/store/rbdrkcs5kkwpalxcd7c6bnm33lk2955n-nodejs-20.19.0/bin/node /nix/store/fprgfkwna33crhc86jqbf5878piivvgw-firebase-tools-14.7.0/lib/node_modules/firebase-tools/lib/bin/firebase.js deploy --only hosting
+[debug] [2025-07-13T17:30:26.674Z] CLI Version:   14.7.0
+[debug] [2025-07-13T17:30:26.674Z] Platform:      linux
+[debug] [2025-07-13T17:30:26.675Z] Node Version:  v20.19.0
+[debug] [2025-07-13T17:30:26.675Z] Time:          Sun Jul 13 2025 17:30:26 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-07-13T17:30:26.675Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-13T17:30:27.025Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-13T17:30:27.025Z] > authorizing via signed-in user (aryaworrior41@gmail.com)
+[debug] [2025-07-13T17:30:27.025Z] [iam] checking project automatic-asset-392719 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-07-13T17:30:27.026Z] No OAuth tokens found
+[debug] [2025-07-13T17:30:27.027Z] No OAuth tokens found
+[debug] [2025-07-13T17:30:27.027Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-13T17:30:27.027Z] > authorizing via signed-in user (aryaworrior41@gmail.com)
+[debug] [2025-07-13T17:30:27.028Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/automatic-asset-392719:testIamPermissions [none]
+[debug] [2025-07-13T17:30:27.028Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/automatic-asset-392719:testIamPermissions x-goog-quota-user=projects/automatic-asset-392719
+[debug] [2025-07-13T17:30:27.028Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/automatic-asset-392719:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-07-13T17:30:27.834Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/automatic-asset-392719:testIamPermissions 200
+[debug] [2025-07-13T17:30:27.834Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/automatic-asset-392719:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-07-13T17:30:27.836Z] No OAuth tokens found
+[debug] [2025-07-13T17:30:27.836Z] No OAuth tokens found
+[debug] [2025-07-13T17:30:27.836Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-13T17:30:27.836Z] > authorizing via signed-in user (aryaworrior41@gmail.com)
+[debug] [2025-07-13T17:30:27.836Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/automatic-asset-392719 [none]
+[debug] [2025-07-13T17:30:28.081Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/automatic-asset-392719 200
+[debug] [2025-07-13T17:30:28.081Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/automatic-asset-392719 {"projectId":"automatic-asset-392719","projectNumber":"969797566292","displayName":"My First Project","name":"projects/automatic-asset-392719","resources":{"hostingSite":"automatic-asset-392719"},"state":"ACTIVE","etag":"1_b7ce9efa-aef8-4118-9ec7-e7a4ffffe089"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-07-13T17:30:34.096Z] No OAuth tokens found
+[debug] [2025-07-13T17:30:34.098Z] No OAuth tokens found
+[debug] [2025-07-13T17:30:34.098Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-13T17:30:34.098Z] > authorizing via signed-in user (aryaworrior41@gmail.com)
+[debug] [2025-07-13T17:30:34.098Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/automatic-asset-392719/sites/automatic-asset-392719 [none]
+[debug] [2025-07-13T17:30:34.581Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/automatic-asset-392719/sites/automatic-asset-392719 200
+[debug] [2025-07-13T17:30:34.581Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/automatic-asset-392719/sites/automatic-asset-392719 {"name":"projects/automatic-asset-392719/sites/automatic-asset-392719","defaultUrl":"https://automatic-asset-392719.web.app","type":"DEFAULT_SITE"}
+[info]    ▲ Next.js 15.3.5
+
+[info]    - Environments: .env
+
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully in 20.0s
+
+[info]    Linting and checking validity of types ...
+
+[info] Failed to compile.
+
+src/app/api/parsePdf/route.ts
+Type error: Route "src/app/api/parsePdf/route.ts" has an invalid export:
+  "Promise<unknown>" is not a valid POST return type:
+    Expected "void | Response | Promise<void | Response>", got "Promise<unknown>".
+      Expected "Promise<void | Response>", got "Promise<unknown>".
+        Expected "void | Response", got "unknown".
+
+
+[info] Next.js build worker exited with code: 1 and signal: null
+
+[debug] [2025-07-13T17:31:11.506Z] Error: ENOENT: no such file or directory, open '/home/user/gdg-project/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.

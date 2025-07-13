@@ -1,4 +1,4 @@
-import PDFParser from 'pdf2json';
+import PDFParser, { Page, Text } from 'pdf2json';
 
 export async function POST(req: Request) {
   const file = (await req.formData()).get('file') as File;
@@ -9,7 +9,7 @@ export async function POST(req: Request) {
     parser.on('pdfParser_dataError', reject);
     parser.on('pdfParser_dataReady', pdfData => {
       const text = pdfData.Pages
-        .flatMap((p: any) => p.Texts.map((t: any) => decodeURIComponent(t.R[0].T)))
+        .flatMap((p: Page) => p.Texts.map((t: Text) => decodeURIComponent(t.R[0].T)))
         .join(' ');
       resolve(new Response(JSON.stringify({ text }), {
         status: 200,

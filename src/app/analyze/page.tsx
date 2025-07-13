@@ -11,16 +11,16 @@ export default function page() {
                         <FileText size={28} fill="black" color="white" className="-mt-0.5" /> Resulize
                     </h1>
                     <section id="quicklinks" className="h-full items-center my-5 pt-1 ml-4 hidden sm:flex gap-5">
-                        <Link href="" target="_blank" className="">LinkedIn</Link>
-                        <Link href="" target="_blank" className="">Github</Link>
-                        <Link href="" target="_blank" className="">Discord</Link>
-                        <Link href="" target="_blank" className="">Mail</Link>
+                        <Link href="https://www.linkedin.com/in/arya-bose/" target="_blank">LinkedIn</Link>
+                        <Link href="https://github.com/NeilDogii" target="_blank">Github</Link>
+                        <Link href="" target="_blank">Discord</Link>
+                        <Link href="mailto:aryaworrior41@gmail.com" target="_blank">Mail</Link>
                     </section>
-                    <button className="ml-auto mr-5 bg-black text-white rounded-lg my-4 text-[14px] cursor-pointer hover:scale-105 transaction-all ease-in duration-100 px-3 font-sans ">Get Started</button>
+                    <button className="ml-auto mr-5 bg-black text-white rounded-lg my-4 text-[14px] cursor-pointer hover:scale-105 transaction-all ease-in duration-100 px-3 font-sans ">Home</button>
                 </div>
             </nav>
             <section className="h-dvh w-full px-2">
-            <div className={`bg-white w-full relative h-full rounded-2xl text-black`}>
+            <div className={`bg-white w-full relative h-full rounded-2xl text-black p-7`}>
                 <PdfForm />
             </div>
             </section>

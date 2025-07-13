@@ -10,10 +10,10 @@ export default function page() {
             <FileText size={28} fill="black" color="white" className="-mt-0.5" /> Resulize
           </h1>
           <section id="quicklinks" className="h-full items-center my-5 pt-1 ml-4 hidden sm:flex gap-5">
-            <Link href="" target="_blank" className="">LinkedIn</Link>
-            <Link href="" target="_blank" className="">Github</Link>
-            <Link href="" target="_blank" className="">Discord</Link>
-            <Link href="" target="_blank" className="">Mail</Link>
+          <Link href="https://www.linkedin.com/in/arya-bose/" target="_blank">LinkedIn</Link>
+                        <Link href="https://github.com/NeilDogii" target="_blank">Github</Link>
+                        <Link href="" target="_blank">Discord</Link>
+                        <Link href="mailto:aryaworrior41@gmail.com" target="_blank">Mail</Link>
           </section>
           <button className="ml-auto mr-5 bg-black text-white rounded-lg my-4 text-[14px] cursor-pointer hover:scale-105 transaction-all ease-in duration-100 px-3 font-sans ">Get Started</button>
         </div>
@@ -36,9 +36,11 @@ export default function page() {
                  className="bg-white rounded-lg text-black px-4 py-2 text-sm font-semibold cursor-pointer">
                   Get Started
                 </Link>
-                <button className="bg-white rounded-lg text-black px-3 py-2 text-sm font-semibold cursor-pointer flex items-center gap-1">
+                <Link
+                href="https://github.com/NeilDogii"
+                 className="bg-white rounded-lg text-black px-3 py-2 text-sm font-semibold cursor-pointer flex items-center gap-1">
                   <Github size={18} className="-mt-0.5" /> Github Repo
-                </button>
+                </Link>
               </section>
             </section>
           </div>
